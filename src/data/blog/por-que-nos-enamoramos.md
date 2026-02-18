@@ -8,16 +8,26 @@ tags:
   - reflexiones
   - amor
   - literatura
-description: "Una reflexión profunda sobre el origen del enamoramiento, la conexión humana y el arte de amar en un mundo que se mueve demasiado rápido."
+description: "Una reflexión honesta sobre el amor, sus formas, sus silencios y esa extraña capacidad que tiene de aparecer donde menos lo esperas."
 ---
 
 ¿Por qué nos enamoramos? ¿Por necesidad? ¿Por conexión? ¿O simplemente, por miedo a estar solos?
 
-A veces creemos que el amor es algo que simplemente pasa, un cruce de miradas, una persona que aparece justo cuando más perdidos estamos, y sí, a veces parece un accidente, pero otras veces, nos enamoramos desde el vacío. Desde la herida, desde esa parte rota que busca sentirse completa, porque el amor no siempre llega cuando estamos listos, a veces llega cuando más lo necesitamos, o cuando más lo confundimos con otra cosa.
+A veces creemos que el amor es algo que simplemente pasa: un cruce de miradas, una persona que aparece justo cuando más perdidos estamos. Y sí, a veces parece un accidente. Pero otras veces nos enamoramos desde el vacío, desde la herida, desde esa parte rota que busca sentirse completa. Porque el amor no siempre llega cuando estamos listos. A veces llega cuando más lo necesitamos, o cuando más lo confundimos con otra cosa.
 
-Erich Fromm decía que el amor es un arte, que no basta con sentirlo, hay que aprender a cuidarlo. No es solo emoción, es compromiso, es mirar al otro y decir: *te elijo*, no porque me haces falta, sino porque contigo soy más yo.
+Erich Fromm decía que el amor es un arte. Que no basta con sentirlo, hay que aprender a cuidarlo. No es solo emoción, es compromiso. Es mirar al otro y decir: *te elijo*, no porque me haces falta, sino porque contigo soy más yo.
 
-Pero en este mundo tan rápido, donde todo se cambia, se descarta, se reemplaza, nos da miedo amar, porque amar de verdad es arriesgarte. A veces nos enamoramos de lo que sentimos a su lado, porque al final, no siempre amamos a quien elegimos. A veces amamos sin querer, sin entender, sin planearlo, y si ese amor te cambió, aunque haya dolido, tal vez no fue un error, tal vez fue justo lo que necesitabas para poder crecer.
+Pero en este mundo tan rápido, donde todo se cambia, se descarta y se reemplaza, nos da miedo amar de verdad. Porque amar de verdad es arriesgarte. Es quedarte cuando sería más fácil irte. Es elegir, una y otra vez, a alguien que también es imperfecto, que también tiene miedo, que también carga con sus propias heridas.
+
+Y aun así, lo elegimos.
+
+Porque al final, no siempre amamos a quien planeamos. A veces amamos sin querer, sin entender, sin haberlo buscado. Y ese amor, aunque llegue de formas inesperadas, tiene algo de milagroso. Algo que no se puede explicar del todo, y quizás no hace falta.
+
+Porque el amor más bonito no es el perfecto. Es el que te hace reír en los momentos más simples. El que te recuerda que estás vivo. El que llega con calma, con ternura, con esa sensación de que el mundo tiene más sentido cuando esa persona está cerca.
+
+¿Por qué nos enamoramos?
+
+Tal vez porque hay personas que, sin proponérselo, nos enseñan a ver lo bonito de la vida.
 
 ---
-*Escrito por Juan Alberto Quiroz.*
+*Juan Alberto Quiroz.*
