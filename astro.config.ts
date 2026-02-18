@@ -68,6 +68,22 @@ export default defineConfig({
         weights: [300, 400, 500, 600, 700],
         styles: ["normal", "italic"],
       },
+      {
+        name: "Playfair Display",
+        cssVariable: "--font-playfair",
+        provider: fontProviders.google(),
+        fallbacks: ["serif"],
+        weights: [400, 500, 600, 700, 800, 900],
+        styles: ["normal", "italic"],
+      },
+      {
+        name: "Lora",
+        cssVariable: "--font-lora",
+        provider: fontProviders.google(),
+        fallbacks: ["serif"],
+        weights: [400, 500, 600, 700],
+        styles: ["normal", "italic"],
+      },
     ],
   },
 });

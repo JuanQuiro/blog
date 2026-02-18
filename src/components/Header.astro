@@ -27,7 +27,7 @@ const isActive = (path: string) => {
   href="#main-content"
   class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
 >
-  Skip to content
+  Saltar al contenido
 </a>
 
 <header
@@ -44,7 +44,7 @@ const isActive = (path: string) => {
   >
     <a
       href="/"
-      class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
+      class="absolute py-1 text-2xl leading-tight font-display font-extrabold tracking-tighter whitespace-nowrap sm:static sm:my-auto sm:text-3xl"
     >
       {SITE.title}
     </a>
@@ -55,7 +55,7 @@ const isActive = (path: string) => {
       <button
         id="menu-btn"
         class="focus-outline self-end p-2 sm:hidden"
-        aria-label="Open Menu"
+        aria-label="Abrir Menú"
         aria-expanded="false"
         aria-controls="menu-items"
       >
@@ -78,12 +78,12 @@ const isActive = (path: string) => {
         </li>
         <li class="col-span-2">
           <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
-            Tags
+            Etiquetas
           </a>
         </li>
         <li class="col-span-2">
           <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-            About
+            Acerca de
           </a>
         </li>
         {
@@ -97,11 +97,11 @@ const isActive = (path: string) => {
                     "active-nav [&>svg]:stroke-accent": isActive("/archives"),
                   },
                 ]}
-                title="Archives"
-                aria-label="archives"
+                title="Archivo"
+                aria-label="archivo"
               >
                 <IconArchive class="hidden sm:inline-block" />
-                <span class="sm:sr-only">Archives</span>
+                <span class="sm:sr-only">Archivo</span>
               </LinkButton>
             </li>
           )
@@ -113,11 +113,11 @@ const isActive = (path: string) => {
               "focus-outline flex p-3 sm:p-1",
               { "[&>svg]:stroke-accent": isActive("/search") },
             ]}
-            title="Search"
-            aria-label="search"
+            title="Buscar"
+            aria-label="buscar"
           >
             <IconSearch />
-            <span class="sr-only">Search</span>
+            <span class="sr-only">Buscar</span>
           </LinkButton>
         </li>
         {
@@ -126,7 +126,7 @@ const isActive = (path: string) => {
               <button
                 id="theme-btn"
                 class="focus-outline relative size-12 p-4 sm:size-8 hover:[&>svg]:stroke-accent"
-                title="Toggles light & dark"
+                title="Cambiar entre modo claro y oscuro"
                 aria-label="auto"
                 aria-live="polite"
               >
@@ -154,7 +154,10 @@ const isActive = (path: string) => {
       const openMenu = menuBtn.getAttribute("aria-expanded") === "true";
 
       menuBtn.setAttribute("aria-expanded", openMenu ? "false" : "true");
-      menuBtn.setAttribute("aria-label", openMenu ? "Open Menu" : "Close Menu");
+      menuBtn.setAttribute(
+        "aria-label",
+        openMenu ? "Abrir Menú" : "Cerrar Menú"
+      );
 
       menuItems.classList.toggle("hidden");
       menuIcon.classList.toggle("hidden");

@@ -2,28 +2,26 @@
 author: Sat Naing
 pubDatetime: 2022-09-26T12:13:24Z
 modDatetime: 2024-01-04T09:09:06Z
-title: Predefined color schemes
-slug: predefined-color-schemes
+title: Esquemas de color predefinidos
+slug: esquemas-de-color-predefinidos
 featured: false
 draft: false
 tags:
   - color-schemes
-description:
-  Some of the well-crafted, predefined color schemes for AstroPaper blog
-  theme.
+description: Algunos de los esquemas de color predefinidos y bien diseñados para el tema de blog AstroPaper.
 ---
 
-I've crafted some predefined color schemes for this AstroPaper blog theme. You can replace these color schemes with the original ones.
+He diseñado algunos esquemas de color predefinidos para este tema AstroPaper. Puedes usar estos para reemplazar los originales.
 
-If you don't know how you can configure color schemes, check [this blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/).
+Si no sabes cómo configurar los esquemas de color, consulta [este post](https://astro-paper.pages.dev/posts/personalizacion-de-los-esquemas-de-color-del-tema-astropaper/).
 
-## Table of contents
+## Tabla de contenidos
 
-## Light color schemes
+## Esquemas de color claros
 
-Light color scheme has to be defined using the css selector `:root` and `html[data-theme="light"]`.
+El esquema de color claro debe definirse usando los selectores CSS `:root` y `html[data-theme="light"]`.
 
-### Lobster
+### Lobster (Langosta)
 
 ![lobster-color-scheme](https://user-images.githubusercontent.com/53733092/192282447-1d222faf-a3ce-44a9-9cfe-ac873155e5a9.png)
 
@@ -38,7 +36,7 @@ html[data-theme="light"] {
 }
 ```
 
-### Leaf Blue
+### Leaf Blue (Azul Hoja)
 
 ![leaf-blue-color-scheme](https://user-images.githubusercontent.com/53733092/192318782-e80e3c39-54b5-423e-8f4b-9ae60402fc8d.png)
 
@@ -53,7 +51,7 @@ html[data-theme="light"] {
 }
 ```
 
-### Pinky light
+### Pinky light (Rosa claro)
 
 ![pinky-color-scheme](https://user-images.githubusercontent.com/53733092/192286510-892d0042-2d6d-471e-bb72-954221ae2d17.png)
 
@@ -68,11 +66,11 @@ html[data-theme="light"] {
 }
 ```
 
-## Dark color schemes
+## Esquemas de color oscuros
 
-Dark color scheme has to be defined as `html[data-theme="dark"]`.
+El esquema de color oscuro debe definirse como `html[data-theme="dark"]`.
 
-### AstroPaper 1 original Dark Theme
+### AstroPaper 1 original (Tema Oscuro)
 
 ![AstroPaper 1 default dark theme](https://user-images.githubusercontent.com/53733092/215769153-13b0ad8d-5ba2-44b1-af06-e5ae61293f62.png)
 
@@ -86,7 +84,7 @@ html[data-theme="dark"] {
 }
 ```
 
-### Deep Oyster
+### Deep Oyster (Ostra profunda)
 
 ![deep-oyster-color-scheme](https://user-images.githubusercontent.com/53733092/192314524-45ec5904-3d8f-450a-9edf-1e32c5e11d6c.png)
 
@@ -100,7 +98,7 @@ html[data-theme="dark"] {
 }
 ```
 
-### Pikky dark
+### Pikky dark (Rosa oscuro)
 
 ![pinky-dark-color-scheme](https://user-images.githubusercontent.com/53733092/192307050-fbd55326-911c-4001-87c6-a8ad9378ac2e.png)
 
@@ -114,7 +112,7 @@ html[data-theme="dark"] {
 }
 ```
 
-### Astro dark (High Contrast)
+### Astro dark (Alto Contraste)
 
 ![astro-dark-color-scheme](https://user-images.githubusercontent.com/53733092/215680520-59427bb0-f4cb-48c0-bccc-f182a428d72d.svg)
 
@@ -128,13 +126,13 @@ html[data-theme="dark"] {
 }
 ```
 
-### Astro dark (New default dark theme in AstroPaper 2)
+### Astro dark (Nuevo tema oscuro en AstroPaper 2)
 
 ![new dark color scheme - low contrast](https://user-images.githubusercontent.com/53733092/215772856-d5b7ae35-ddaa-4ed6-b0bf-3fa5dbcf834c.png)
 
 ```css
 html[data-theme="dark"] {
-  --background: #212737; /* lower contrast background */
+  --background: #212737; /* fondo de menor contraste */
   --foreground: #eaedf3;
   --accent: #ff6b01;
   --muted: #8a3302;
@@ -142,7 +140,7 @@ html[data-theme="dark"] {
 }
 ```
 
-### Astro Deep Purple (New dark theme in AstroPaper 3)
+### Astro Deep Purple (Nuevo tema oscuro en AstroPaper 3)
 
 ![AstroPaper v3 new theme](https://github.com/satnaing/astro-paper/assets/53733092/c8b5d7e1-a3bc-4852-a5ad-4abf7b3cec79)
 
@@ -156,7 +154,7 @@ html[data-theme="dark"] {
 }
 ```
 
-### AstroPaper v4 Special (New dark theme in AstroPaper 4)
+### AstroPaper v4 Especial (Nuevo tema oscuro en AstroPaper 4)
 
 ![AstroPaper v4 new theme](https://github.com/satnaing/astro-paper/assets/53733092/66eb74dc-7a0e-4f2e-982d-25f5c443b25a)
 

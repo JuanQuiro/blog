@@ -1,37 +1,21 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Acerca de"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Soy Juan Alberto Quiroz, un apasionado de la literatura y el pensamiento reflexivo. Venaferrar Blog es mi espacio digital dedicado a explorar el mundo a través de las letras, compartiendo mis obras, ideas y todo aquello que pasa por mi mente.
 
-![Astro Paper](public/astropaper-og.jpg)
+![Juan Alberto Quiroz](public/astropaper-og.jpg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+En este blog encontrarás una recopilación de mis pensamientos, relatos cortos y reflexiones sobre diversos temas que me inspiran cada día.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+## Mis Intereses
 
-## Features
+- Literatura contemporánea y clásica
+- Filosofía y pensamiento crítico
+- Relatos personales y crónicas
+- Escritura creativa
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Espero que encuentres en estas páginas algo que resuene contigo o te invite a la reflexión.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+¡Gracias por visitar! 🙏🏼

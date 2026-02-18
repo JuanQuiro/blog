@@ -5,23 +5,29 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --background: #fdfaf6;
+  /* Warm off-white for better reading */
+  --foreground: #1a1a1a;
+  --accent: #7c4dff;
+  /* Deep purple accent */
+  --muted: #f0ebe4;
+  --border: #e0d7cd;
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  --background: #121212;
+  --foreground: #e0e0e0;
+  --accent: #b388ff;
+  --muted: #1e1e1e;
+  --border: #333333;
 }
 
 @theme inline {
-  --font-app: var(--font-google-sans-code);
+  --font-display: var(--font-playfair);
+  --font-serif: var(--font-lora);
+  --font-mono: var(--font-google-sans-code);
+  --font-app: var(--font-serif);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
@@ -35,16 +41,36 @@ html[data-theme="dark"] {
     scrollbar-width: auto;
     scrollbar-color: var(--color-muted) transparent;
   }
+
   html {
     @apply overflow-y-scroll scroll-smooth;
   }
+
   body {
     @apply flex min-h-svh flex-col bg-background font-app text-foreground selection:bg-accent/75 selection:text-background;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    line-height: 1.6;
+    letter-spacing: 0.0125em;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-bold tracking-tight text-balance;
+    line-height: 1.1;
+  }
+
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
   }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;

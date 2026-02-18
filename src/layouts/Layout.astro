@@ -29,6 +29,13 @@ const {
   scrollSmooth = false,
 } = Astro.props;
 
+const isHome = Astro.url.pathname === "/" || Astro.url.pathname === "/index.html";
+const displayTitle = isHome
+  ? `${SITE.title} | Literatura y Tecnología`
+  : title === SITE.title
+    ? title
+    : `${title} | ${SITE.title}`;
+
 const socialImageURL = new URL(ogImage, Astro.url);
 
 const structuredData = {
@@ -61,21 +68,29 @@ const structuredData = {
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Load Font -->
+    <!-- Load Fonts -->
     <Font
       cssVariable="--font-google-sans-code"
       preload={[{ subset: "latin", weight: 400, style: "normal" }]}
     />
+    <Font
+      cssVariable="--font-playfair"
+      preload={[{ subset: "latin", weight: 700, style: "normal" }]}
+    />
+    <Font
+      cssVariable="--font-lora"
+      preload={[{ subset: "latin", weight: 400, style: "normal" }]}
+    />
 
     <!-- General Meta Tags -->
-    <title>{title}</title>
-    <meta name="title" content={title} />
+    <title>{displayTitle}</title>
+    <meta name="title" content={displayTitle} />
     <meta name="description" content={description} />
     <meta name="author" content={author} />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={displayTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
@@ -101,7 +116,7 @@ const structuredData = {
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
+    <meta property="twitter:title" content={displayTitle} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={socialImageURL} />
 
