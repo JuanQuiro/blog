@@ -22,7 +22,7 @@ Sin embargo, en esta paz recién descubierta, surge una sombra familiar, la sens
 
 ## La Paradoja de la Estabilidad
 
-¿Por qué, cuando finalmente alcanzamos el puerto seguro que tanto anhelábamos, empezamos a extrañar la tormenta? La filosofía nos enseña que:
+¿Por qué, cuando finalmente alcanzamos el puerto seguro que tanto anhelábamos, empezamos a extrañar la tormenta? La filosofía nos enseña que
 
 > La naturaleza del hombre no es la paz, sino la insatisfacción crítica.
 
